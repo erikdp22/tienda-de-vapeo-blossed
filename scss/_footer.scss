@@ -1,0 +1,23 @@
+.footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+
+
+}
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.footer-titulos{
+    color: $blanco;
+    margin: 1rem;
+
+}
+.footer-a{
+    margin: 0.1rem;;
+}

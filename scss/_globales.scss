@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important; 
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    
+    font-weight: 400;
+    text-decoration: none;
+    color: $blanco;
+}
+
+$bgcolors: (
+    "body": $azulado,
+    "contacto": $violeta,
+    "oscuro": $negro
+);
+@each $bg, $valor in $bgcolors {
+    .color-#{$bg} {
+        background-color: $valor;
+    }
+    
+} 
+@mixin size ($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+.boton{
+    padding: 0.5;
+    width: 10rem;
+    
+
+}
+.main-contacto-boton{
+    @extend .boton;
+    background-color: $negro;
+    color: $blanco;
+}
+.boton-comprar{
+    @extend .boton;
+    background-color: $blanco;
+    margin: 1rem;
+    color: $negro!important;
+}

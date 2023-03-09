@@ -1,191 +1,237 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box!important; 
-    font-family: 'Open Sans', sans-serif;
-}
-a{
-    
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
-}
-.header-contenedor{
-    background-color: black;
-    padding: 1rem;
-}
-.boton{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    transition: background-color .5s ease;
-}
-.boton:hover{
-    background-color: white;
-    color: black;
-}
-.header-logo{
-    text-align: center;
-    font-weight: 700;
-    color: white;
-}
-.header-nav{
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-}
-.header-li{
-    margin: 0.5rem;
-    list-style: none;
-}
-.header-img{
-    width: 100%;
-    background-image: url(../imagenes/banner-vape.jpg);
-    background-repeat: no-repeat;
-    height: 40rem;
-    background-size: cover;
-    
-}
-.header-img-titulo{
-    
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    padding-top: 18rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: 'Open Sans', sans-serif; }
 
-}
-/*main productos*/
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: white; }
 
-.main-productos{
-    width: 15rem;
-    height: 25rem;
-}
-.main-producto-img{
-    width: 15rem;
-    height: 17rem;
-}
-.main-producto-precio{
-    
-    font-weight: 300; 
-}
-.main-seccion-titulo{
-    font-size: 2rem;
-    margin: 5rem 0rem;
-    text-align: center;
-    padding: 0rem;
-}
+.color-body {
+  background-color: #11191c; }
 
+.color-contacto {
+  background-color: violet; }
 
-/*comienzo de footer*/
+.color-oscuro {
+  background-color: black; }
 
-.footer{
-    background-color: black;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
+.boton, .main-contacto-boton, .boton-comprar {
+  padding: 0.5;
+  width: 10rem; }
 
+.main-contacto-boton {
+  background-color: black;
+  color: white; }
 
+.boton-comprar {
+  background-color: white;
+  margin: 1rem;
+  color: black !important; }
 
-}
-.footer-redes{
-    display: flex;
+.header-contenedor {
+  padding: 1rem; }
+
+.boton, .main-contacto-boton, .boton-comprar {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: background-color .5s ease; }
+
+.boton:hover, .main-contacto-boton:hover, .boton-comprar:hover {
+  background-color: white;
+  color: black; }
+
+.header-logo {
+  text-align: center;
+  font-weight: 700;
+  color: white; }
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem; }
+
+.header-li {
+  margin: 0.5rem;
+  list-style: none; }
+
+.header-img {
+  height: 40rem;
+  width: 100%;
+  background-image: url(../imagenes/banner-vape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center center; }
+
+.header-img-titulo {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto; }
+
+.main-productos {
+  height: 25rem;
+  width: 15rem;
+  color: white; }
+
+.main-producto-img {
+  height: 14rem;
+  width: 12rem;
+  color: white; }
+
+.main-producto-precio {
+  font-weight: 300;
+  color: white;
+  margin: 1rem; }
+
+.main-seccion-titulo {
+  font-size: 2rem;
+  margin: 5rem 0rem;
+  text-align: center;
+  padding: 0rem;
+  color: white; }
+
+.main-producto-titulo {
+  color: white;
+  margin: 1rem;
+  font-size: 1rem; }
+
+.footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem; }
+
+.footer-redes {
+  display: flex;
+  flex-direction: column; }
+
+.footer-titulos {
+  color: white;
+  margin: 1rem; }
+
+.footer-a {
+  margin: 0.1rem; }
+
+.main-nosotros-texto {
+  text-align: center;
+  font-weight: 300;
+  color: white; }
+
+.main-nosotros-logo {
+  height: 11rem;
+  width: 13rem; }
+
+.main-secciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main-contacto-label {
+  font-weight: 700; }
+
+.main-contacto-input {
+  height: 3rem;
+  width: 70%;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0rem; }
+
+.main-contacto-textarea {
+  height: 20rem;
+  width: 70%;
+  border: 1px solid black;
+  margin: 1rem 0rem; }
+
+.container-form {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 2rem; }
+
+.contacto-flex {
+  display: flex;
+  justify-content: space-between; }
+
+.main-tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.liquidos-flex {
+  margin: 2rem auto;
+  display: flex;
+  width: 70rem;
+  justify-content: center; }
+
+.liquidos-info {
+  margin-right: 3rem;
+  justify-content: center; }
+
+.producto-home {
+  height: 20rem;
+  width: 15rem;
+  color: white;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background-color: rgba(243, 243, 243, 0.2); }
+
+.liquidos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.liquidos-flex {
+  display: flex;
+  width: 70rem;
+  justify-content: center; }
+
+.liquidos-info {
+  justify-content: center; }
+
+.letra-liquidos {
+  color: white;
+  margin: 1rem; }
+
+@media (max-width: 1570px) {
+  .liquidos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+  .liquidos-flex {
     flex-direction: column;
-    
+    width: 12rem; }
+  .letra-liquidos {
+    display: none; } }
 
-}
-.footer-titulos{
-    color: white;
-    margin: 1rem;
+@media (max-width: 1114px) {
+  .liquidos-container {
+    grid-template-columns: repeat(2, 1fr); } }
 
-}
-.footer-a{
-    margin: 0.1rem;;
-}
-
-/*main sobre nosotros*/
-.main-nosotros-texto{
-    
-    text-align: center;
-    font-weight: 300;
-}
-.main-nosotros-logo{
-    width: 15rem;
-    height: 13rem;
-}
-/*main contacto*/
-.main-contacto-label{
-    font-weight: 700;
-
- 
-  
-}
-.marcas{
-
-display: flex;
-justify-content: center;
-
-
-
-
-
-}
-.main-contacto-input{
-    width: 100%;
-    height: 3rem;
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem 0rem; 
-    
-}
-.main-contacto-textarea{
-    width: 100%;
-    height: 20rem;
-    border: 1px solid black;
-    margin: 1rem 0rem;
-}
-.main-contacto-boton{
-    background-color: black;
-    color: white;
-    padding: 0.5rem;
-}
-
-.main-tienda{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.liquidos-flex{
-    margin: 2rem auto;
-    display: flex;
-    width: 70rem;
-    justify-content: center;    
-    
-  
-}
-
-.liquidos-info{
-    margin-right: 3rem;
-    justify-content: center;
-
-}
-.col{
-    padding: 0;
-}
-@media (max-width: 690px){
-   .header-nav{
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-
-   } 
-   .footer{
+@media (max-width: 847px) {
+  .header-nav {
     flex-direction: column;
     align-items: center;
-    
-   }
-
-}
+    padding: 0; }
+  .header-img {
+    height: 20rem; }
+  .liquidos-container {
+    grid-template-columns: repeat(1, 1fr); }
+  .footer {
+    flex-direction: column;
+    align-items: center; }
+  .contacto-flex {
+    flex-direction: column; }
+  .main-contacto-textarea {
+    width: 90%; }
+  .main-contacto-input {
+    width: 90%; } }

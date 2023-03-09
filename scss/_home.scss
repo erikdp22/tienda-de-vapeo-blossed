@@ -1,0 +1,8 @@
+.producto-home{ 
+    @include size (20rem, 15rem);
+    color: $blanco;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color:rgba(243,243,243, 0.20);
+    
+}

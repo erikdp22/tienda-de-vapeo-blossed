@@ -1,0 +1,53 @@
+@media (max-width: 1570px){
+    .liquidos-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .liquidos-flex{
+        flex-direction: column;
+        width: 12rem;
+    }
+    .letra-liquidos{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1114px){
+    .liquidos-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 847px){
+
+    .header-nav{
+         flex-direction: column;
+         align-items: center;
+         padding: 0;
+ 
+    } 
+    .header-img{
+        height: 20rem;
+    }
+
+    .liquidos-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+     flex-direction: column;
+     align-items: center;
+     
+    }
+
+    .contacto-flex{
+        flex-direction: column;
+
+    }
+    .main-contacto-textarea{
+        width: 90%;
+    }
+    .main-contacto-input{
+        width: 90%;
+    }
+ }

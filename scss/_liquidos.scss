@@ -1,0 +1,23 @@
+.liquidos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liquidos-flex{
+    display: flex;
+    width: 70rem;
+    justify-content: center;    
+    
+  
+}
+
+.liquidos-info{
+
+    justify-content: center;
+}
+
+.letra-liquidos{
+    color: $blanco;
+    margin: 1rem;
+}

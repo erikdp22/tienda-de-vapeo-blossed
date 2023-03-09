@@ -1,0 +1,10 @@
+.main-nosotros-texto{
+    
+    text-align: center;
+    font-weight: 300;
+    color: $blanco;
+}
+.main-nosotros-logo{
+    @include size (11rem, 13rem);
+    
+}
